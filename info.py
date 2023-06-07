@@ -39,7 +39,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Dora_files')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL','1001686676478')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT','araswinmalayala325')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'armoviechat')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
